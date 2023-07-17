@@ -5,10 +5,10 @@
     
     <entry>
       <title></title>
-      <link href="/2023/07/17/%E6%9D%82%E4%B8%A8%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8auth0%E7%99%BB%E5%BD%95%E7%9A%84vue.js%E9%A1%B9%E7%9B%AE%E8%BF%94%E5%9B%9EUnauthorized%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-      <url>/2023/07/17/%E6%9D%82%E4%B8%A8%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8auth0%E7%99%BB%E5%BD%95%E7%9A%84vue.js%E9%A1%B9%E7%9B%AE%E8%BF%94%E5%9B%9EUnauthorized%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+      <link href="/project/2023/07/17/%E6%9D%82%E4%B8%A8%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8auth0%E7%99%BB%E5%BD%95%E7%9A%84vue.js%E9%A1%B9%E7%9B%AE%E8%BF%94%E5%9B%9EUnauthorized%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+      <url>/project/2023/07/17/%E6%9D%82%E4%B8%A8%E8%A7%A3%E5%86%B3%E4%BD%BF%E7%94%A8auth0%E7%99%BB%E5%BD%95%E7%9A%84vue.js%E9%A1%B9%E7%9B%AE%E8%BF%94%E5%9B%9EUnauthorized%E7%9A%84%E9%97%AE%E9%A2%98/</url>
       
-        <content type="html"><![CDATA[<h1 id="杂丨解决使用auth0登录的vue-js项目返回Unauthorized的问题"><a href="#杂丨解决使用auth0登录的vue-js项目返回Unauthorized的问题" class="headerlink" title="杂丨解决使用auth0登录的vue.js项目返回Unauthorized的问题"></a>杂丨解决使用auth0登录的vue.js项目返回Unauthorized的问题</h1><p><strong>问题：</strong></p><p>事情是这样的，笔者从Auth0官网上下载了示例项目。但运行之后提交了登录的表单数据后，总是返回Unauthorized错误。</p><p>笔者确认代码中auth_config配置是正确的，Dashboard上也已经添加了正确的回调url。在auth0的控制台上，也能够看到用户成功登录，但是页面却一直报错，貌似是token值的获取有问题。</p><p>​<img src="/./assets/292f827cdfe273338919e106733799f-20230717171959-5zgxsdt.png"></p><p>​</p><p><strong>解决：</strong></p><p>在Dashboard中将对应应用的Authentication Methods修改为none。</p><p>​<img src="/./assets/b731d0bde79ef02a5ab8c2d9eb27e60-20230717173438-ss2s1e1.jpg">​</p><p>‍</p><blockquote><p><em>参考资料：</em></p><p><a href="https://stackoverflow.com/questions/64349014/auth0-returns-a-401-on-token-request-auth0-logs-show-login-is-successful/64351399#64351399">https://stackoverflow.com/questions/64349014/auth0-returns-a-401-on-token-request-auth0-logs-show-login-is-successful/64351399#64351399</a></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h1 id="杂丨解决使用auth0登录的vue-js项目返回Unauthorized的问题"><a href="#杂丨解决使用auth0登录的vue-js项目返回Unauthorized的问题" class="headerlink" title="杂丨解决使用auth0登录的vue.js项目返回Unauthorized的问题"></a>杂丨解决使用auth0登录的vue.js项目返回Unauthorized的问题</h1><p>&lt;h4?&gt;问题：</h4></p><p>事情是这样的，笔者从Auth0官网上下载了示例项目。但运行之后提交了登录的表单数据后，总是返回Unauthorized错误。</p><p>笔者确认代码中auth_config配置是正确的，Dashboard上也已经添加了正确的回调url。在auth0的控制台上，也能够看到用户成功登录，但是页面却一直报错，貌似是token值的获取有问题。</p><p>​<img src="/project/./assets/292f827cdfe273338919e106733799f-20230717171959-5zgxsdt.png"></p><p>​</p><p><strong>解决：</strong></p><p>在Dashboard中将对应应用的Authentication Methods修改为none。</p><p>​<img src="/project/./assets/b731d0bde79ef02a5ab8c2d9eb27e60-20230717173438-ss2s1e1.jpg">​</p><p>‍</p><blockquote><p><em>参考资料：</em></p><p><a href="https://stackoverflow.com/questions/64349014/auth0-returns-a-401-on-token-request-auth0-logs-show-login-is-successful/64351399#64351399">https://stackoverflow.com/questions/64349014/auth0-returns-a-401-on-token-request-auth0-logs-show-login-is-successful/64351399#64351399</a></p></blockquote>]]></content>
       
       
       
@@ -18,10 +18,10 @@
     
     <entry>
       <title>demo</title>
-      <link href="/2023/05/16/demo/"/>
-      <url>/2023/05/16/demo/</url>
+      <link href="/project/2023/05/16/demo/"/>
+      <url>/project/2023/05/16/demo/</url>
       
-        <content type="html"><![CDATA[<p><img src="/about/about.png"><br>test</p><span id="more"></span>]]></content>
+        <content type="html"><![CDATA[<p><img src="/project/about/about.png"><br>test</p><span id="more"></span>]]></content>
       
       
       
